@@ -1,0 +1,154 @@
+body {
+    margin: 20px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.imglist {
+    text-align: center;
+}
+
+.imglist>img {
+    width: 30%;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+}
+
+.imglist>img:hover {
+    box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+    width: 32%;
+}
+
+.container {
+    border-color: #f1bbbb;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #f5ebeb;
+    border-radius: 10px;
+    padding: 20px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.photo {
+    width: 20vw;
+    height: 20vw;
+    background-image: url(../img/04.jpg);
+    background-size: 20vw;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.info {
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+div.info>div {
+    margin-top: 15px;
+}
+
+div.info>div.name {
+    margin-top: 0px;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: fantasy;
+    color: lightsalmon;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+
+.btn-green {
+    background-color: #1d9d74;
+    color: #fff;
+}
+
+.btn-green:hover {
+    background-color: #167f5e;
+}
+
+.btn-blue {
+    background-color: #606db7;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #3b4994;
+}
+
+.btn-yellow {
+    background-color: #F57C00;
+    color: #fff;
+}
+
+.btn-yellow:hover {
+    background-color: #c56604;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.btn-sm {
+    padding: 4px 6px;
+    font-size: 10px;
+}
+
+.wish a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: blueviolet
+}
+
+.wish a:visited {
+    color: #dd092e;
+}
+
+.wish a:hover {
+    color: black;
+}
+
+.wish a:active {
+    color: yellow;
+}
+
+.number {
+    color: green;
+}
+
+.hobby {
+    color: #042070;
+}
+
+.line img {
+    width: 130px;
+    height: 130px;
+    float: right;
+    display: inline;
+}
